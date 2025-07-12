@@ -1,0 +1,172 @@
+/* --- Global --- */
+body {
+    font-family: 'M PLUS Rounded 1c', 'Prompt', sans-serif;
+    background-color: #fef6f9;
+    color: #333;
+  }
+
+  /* --- Navbar --- */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+  
+  /* --- Hero Banner --- */
+  section.bg-dark.text-white {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('../assets/images/banner.jpg') center/cover no-repeat;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  }
+
+  .hero-slide h1,
+  .hero-slide p {
+    color: #fff;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.7);
+  }
+
+  .hero-slide p {
+   font-size: 2rem; /* หรือปรับตามที่ต้องการ */
+  }
+
+  .hero-slide {
+    height: 50vh; /* ความสูง 90% ของหน้าจอ */
+    width: 100%;
+    aspect-ratio: 3 / 2; /* ใช้ aspect-ratio เพื่อควบคุมอัตราส่วน */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  /* --- Cards --- */
+  .card {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .object-fit-cover {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ratio-custom {
+    position: relative;
+    width: 100%;
+    padding-top: 150%; /* 2:3 = 66.66% -> 3:2 = 150% */
+    overflow: hidden;
+  }
+  
+  .ratio-custom img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  /* --- Footer --- */
+  footer {
+    font-size: 0.875rem;
+  }
+
+  .hover-link:hover {
+    color: #a855f7 !important; /* เปลี่ยนสีตอน hover */
+    transition: 0.3s;
+  }
+  
+  /* --- Responsive Tweaks --- */
+  @media (max-width: 576px) {
+    .card-title {
+      font-size: 0.9rem;
+    }
+  
+    .card-text {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* --- Navbar --- */
+.navbar {
+  background: linear-gradient(to right, #6a1b9a, #22d3ee) !important;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: #ffe0f0 !important;
+  }
+  
+  /* โลโก้ AnimeFlix ไล่สีม่วง-ฟ้า */
+  .gradient-logo {
+    background: linear-gradient(to right, #be7bfd, #3adcf5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
+  /* Hover effect */
+  .hover-link:hover {
+    color: #a855f7 !important; /* สีม่วงตอน hover */
+    transition: 0.3s;
+  }
+
+  /* --- ปุ่ม --- */
+  .btn-primary {
+    background-color: #f06292;
+    border-color: #f06292;
+  }
+  .btn-primary:hover {
+    background-color: #ec407a;
+    border-color: #ec407a;
+  }
+  
+  /* --- Card Style --- */
+  .card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    color: #6a1b9a;
+    font-weight: bold;
+  }
+  .card-text {
+    color: #777;
+  }
+  
+  /* --- Banner Background (อนิเมะภาพใหญ่) --- */
+  section.bg-dark.text-white {
+    background: linear-gradient(to right, rgba(106, 27, 154, 0.8), rgba(240, 98, 146, 0.8)),
+                url('https://wallpapercave.com/wp/wp5166207.jpg') center/cover no-repeat;
+    min-height: 400px;
+  }
+  
